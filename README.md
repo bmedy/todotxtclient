@@ -33,4 +33,4 @@ This is the best tools for the job for many reason, objective and subjective one
 
 ## Thanks 
 
-Thanks to @bmedy for his help and support, because he do know javascript. It is not because I am autonomous in my work that I am a loner.  
+Thanks to [@bmedy](https://github.com/bmedy) for his help and support, because he do know javascript. It is not because I am autonomous in my work that I am a loner.  
