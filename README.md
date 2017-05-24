@@ -14,7 +14,7 @@ Todo.txt has a lot of clients, but none that are :
 	- mutli platform web and Linux and mac and Windows
 	- keyboard oriented (vim inspired), a good productivity application should never need the mouse
 
-## Why javascript? 
+## Why javascript? I mean typescript but you know it's the same in the end
 
 Has I start this project, I have little to no knowledge of the Javascript, and to be honest I am not even sure that I like it :D. But I think this is the best language for this project! And I always try to find the best tool for the job. 
 This is the best tools for the job for many reason, objective and subjective ones (this is a personal project, having fun is a prerequisite) 
