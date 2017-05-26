@@ -1,18 +1,18 @@
 /*
- * Task class
+ * Todo class
  */
 
 import * as _ from 'lodash';
 
-export class Task {
+export class Todo {
   done: boolean = false;
   priority: string;
   contexts: string[] = [];
   projects: string[] = [];
 
-  constructor(public taskAsString: string) {
-    this.done = _.startsWith(taskAsString, "x ");
-    let sp = taskAsString.split(" ");
+  constructor(public todoAsString: string) {
+    this.done = _.startsWith(todoAsString, "x ");
+    let sp = todoAsString.split(" ");
 
     for (var entry of sp){
       if (_.startsWith(entry, "@")) {
