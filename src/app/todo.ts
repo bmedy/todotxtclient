@@ -3,6 +3,7 @@
  */
 
 import * as _ from 'lodash';
+import { Logger } from 'angular2-logger/core';
 
 export class Todo {
   done: boolean = false;
@@ -10,7 +11,7 @@ export class Todo {
   contexts: string[] = [];
   projects: string[] = [];
 
-  constructor(public todoAsString: string) {
+  constructor( public todoAsString: string ) {
     this.done = _.startsWith(todoAsString, "x ");
     let sp = todoAsString.split(" ");
 
@@ -28,7 +29,7 @@ export class Todo {
     } else {
       this.extractPriority(sp[0]);
     }
-
+    //logger.debug("Creating todo " + todoAsString);
   }
 
   extractPriority(s :string) {
