@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { Logger } from 'angular2-logger/core';
 
 import { TodoListComponent } from './todo-list.component';
+import { TodoComponent } from './todo.component';
 import { TodoService } from './todo.service';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TodoListComponent
+    TodoListComponent,
+    TodoComponent
   ],
   imports: [
     BrowserModule,

@@ -2,6 +2,7 @@ import { Component, OnInit, Inject } from '@angular/core';
 
 import { TodoService } from './todo.service';
 import { Todo } from './todo';
+import { TodoComponent } from './todo.component'
 
 @Component({
   selector: 'todo-list',
