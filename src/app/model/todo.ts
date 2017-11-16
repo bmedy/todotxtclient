@@ -4,8 +4,6 @@
 
 import * as _ from 'lodash';
 
-import { Logger } from 'angular2-logger/core';
-
 export class Todo {
   done: boolean = false;
   text: string[] = [];

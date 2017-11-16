@@ -3,12 +3,10 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { AppComponent } from './app.component';
-import { Logger } from 'angular2-logger/core';
-
-import { TodoListComponent } from './todo-list.component';
-import { TodoComponent } from './todo.component';
-import { TodoService } from './todo.service';
+import { AppComponent } from './components/app.component';
+import { TodoListComponent } from './components/todo-list.component';
+import { TodoComponent } from './components/todo.component';
+import { TodoService } from './services/todo.service';
 
 @NgModule({
   declarations: [
@@ -22,7 +20,6 @@ import { TodoService } from './todo.service';
     HttpModule,
   ],
   providers: [
-    Logger,
     TodoService
   ],
   bootstrap: [AppComponent]

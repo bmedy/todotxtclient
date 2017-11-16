@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Todo } from "./todo";
-import { Logger } from 'angular2-logger/core';
+import { Todo } from "../model/todo";
 
 
 @Injectable()
@@ -16,14 +15,12 @@ Write a love letter to my soulmate +Life
 
   `
 
-  constructor(private logger: Logger) { }
+  constructor() { }
 
   getTodos() {
-    this.logger.debug("retrieve todos...");
     for (var todoString of this.todoAsText.split('\n')) {
       if (todoString.trim()) this.todos.push(new Todo(todoString));
     }
-    this.logger.debug("retrieved " + this.todos.length + " todos." );
     return this.todos;
   }
 }
