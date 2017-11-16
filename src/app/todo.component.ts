@@ -13,14 +13,16 @@ import { Todo } from './todo';
 
 export class TodoComponent {
   @Input('todo') todo: Todo;
+  @Output() todoDeleted = new EventEmitter<Todo>();
 
   constructor(private logger: Logger) { }
 
   todoDone() {
-    console.log("todo done in component...")
-    this.logger.debug("Mark todo as done: " + this.todo);
     this.todo.todoDone();
   }
 
+  todoDelete() {
+    this.todoDeleted.emit(this.todo);
+  }
 
 }

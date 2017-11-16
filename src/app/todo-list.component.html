@@ -1,5 +1,5 @@
 <p><i>Todo list</i></p>
 <ul>
-  <todo *ngFor="let t of todos" [todo]="t" >
+  <todo *ngFor="let t of todos" [todo]="t" (todoDeleted)="deleteTodo($event)" >
   </todo>
 </ul>
