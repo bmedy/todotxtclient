@@ -17,15 +17,16 @@ Todo.txt has a lot of clients, but none that are :
 ## Why javascript? I mean typescript but you know it's the same in the end
 
 Has I start this project, I have little to no knowledge of the Javascript, and to be honest I am not even sure that I like it :D. But I think this is the best language for this project! And I always try to find the best tool for the job. 
-This is the best tools for the job for many reason, objective and subjective ones (this is a personal project, having fun is a prerequisite) 
-	- This project is mainly a UI project and it is great for UI
- 	- These days you can deploy it on anything from the desktop the browser as a site or an extension 
- 	- I don't know it but: 
-		- I should because it's everywhere and I will need it
-		- I love working with thing I don't know because there is no presure to be good at it. If I fail it normal, but if I don't it awesome. 
-		- I cannot troll it as well as if I've use it
-    - **No IDE Needed.** I can code in vim and I've never done it before, but it will be fun
 
+This is the best tools for the job for many reason, objective and subjective ones (this is a personal project, having fun is a prerequisite) 
+
+- This project is mainly a UI project and it is great for UI
+- These days you can deploy it on anything from the desktop the browser as a site or an extension 
+- I don't know it but: 
+	- I should because it's everywhere and I will need it
+	- I love working with thing I don't know because there is no presure to be good at it. If I fail it normal, but if I don't it awesome. 
+	- I cannot troll it as well as if I've use it
+  - **No IDE Needed.** I can code in vim and I've never done it before, but it will be fun
 
 ## Conception 
 
